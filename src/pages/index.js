@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
 
 export default () => (
-  <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
+  <Layout>
     <h1>Patrick Star on Leedle</h1>
     <div>
       <p>
@@ -23,8 +24,8 @@ export default () => (
     <div>
       <div><img src="https://thumbs.gfycat.com/AnyRemarkableIndianpalmsquirrel-size_restricted.gif"/></div>
       <button class="primary-button">
-      <Link to="/about/"> Click me </Link>
+      <Link to="/profile/"> Click me </Link>
       </button>
     </div>
-  </div>
+  </Layout>
 )
