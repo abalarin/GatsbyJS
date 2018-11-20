@@ -1,3 +1,3 @@
 import React from "react"
 
-export default () => <div>Hello world! ~-~-~ dfssafdsa Gastbsy CI?</div>
+export default () => <div><img src="https://thumbs.gfycat.com/AnyRemarkableIndianpalmsquirrel-size_restricted.gif"/></div>
