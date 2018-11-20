@@ -1,4 +1,10 @@
-# gatsby-starter-hello-world
+# [Gatsby JS](http://www.leedle.site)
 
+A simple Gatsby continous integration site.
 
-[view the live demo here](www.leedle.site).
+### Tech Stack:
+* Gatsby JS
+* React
+* Node
+* Travis CI 
+* * For automated deployment to Linode
