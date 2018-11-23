@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 
-export default () => (
+export default ( ) => (
   <Layout>
     <h1>Patrick Star on Leedle</h1>
     <div>
@@ -22,7 +22,7 @@ export default () => (
     </div>
 
     <div>
-      <div><img src="https://thumbs.gfycat.com/AnyRemarkableIndianpalmsquirrel-size_restricted.gif"/></div>
+      <div><img src="https://thumbs.gfycat.com/AnyRemarkableIndianpalmsquirrel-size_restricted.gif" alt="Smiley face"/></div>
       <button class="primary-button">
       <Link to="/profile/"> Click me </Link>
       </button>
