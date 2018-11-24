@@ -4,7 +4,7 @@ module.exports = {
       resolve: `gatsby-source-mongodb`,
       options: {
         dbName: `testdb`,
-        collection: [`myNewCollection2`, 'users']
+        collection: [`myNewCollection2`, 'users', 'test']
       },
     },
     {
