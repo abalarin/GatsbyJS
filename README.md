@@ -5,6 +5,6 @@ A simple Gatsby continous integration site.
 ### Tech Stack:
 * Gatsby JS
 * React
-* Node
+* NodeJS
 * Travis CI 
-* * For automated deployment to Linode
+	* For automated deployments to Linode/Remote Server
