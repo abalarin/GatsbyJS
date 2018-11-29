@@ -22,7 +22,7 @@ export default ( ) => (
     </div>
 
     <div>
-      <div><img src="https://thumbs.gfycat.com/AnyRemarkableIndianpalmsquirrel-size_restricted.gif" alt="Smiley face"/></div>
+      <div><img src="https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/0/0c/Wumbo.gif/revision/latest?cb=20130201021644" alt="Smiley face"/></div>
       <button class="primary-button">
       <Link to="/profile/"> Click me </Link>
       </button>
