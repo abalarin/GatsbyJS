@@ -15,7 +15,7 @@ export default ( ) => (
           We'll have thee wumbo, Wumborama, Wumbology, The study of wumbo?
           {" "}
           <em>
-            It's first grade SpongeBob!
+            Its first grade SpongeBob!
           </em>
         </p>
       </blockquote>
