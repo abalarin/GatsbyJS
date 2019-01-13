@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 export default ( ) => (
   <Layout>
-    <h1>Patrick Star on Wumbo</h1>
+    <h1>Patrick Star on Wumbo </h1>
     <div>
       <p>
       You got it set to "M" for mini, when it should be set to "W" for "wumbo".
