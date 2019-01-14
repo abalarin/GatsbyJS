@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import github from "../../public/IMG_4982.png"
+import github from "./IMG_4982.png"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
