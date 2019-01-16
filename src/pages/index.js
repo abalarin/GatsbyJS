@@ -1,12 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import github from "./IMG_4982.png"
+// import github from "./IMG_4982.png"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+export const query = graphql`
+  query MyFilesQuery {
+    allFile {
+      edges {
+        node {
+          relativePath
+          prettySize
+          extension
+          birthTime(fromNow: true)
+        }
+      }
+    }
+  }
+`
 
 class infoCard1 extends React.Component {
   constructor(props){
@@ -80,13 +93,13 @@ class Page extends React.Component {
             </p>
           </div>
           <div class="col">
-            <img src={github} alt="Logo" />
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo" />
           </div>
         </div>
 
         <div class="row">
           <div class="col">
-            <img src={github} alt="Logo" />
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo" />
           </div>
 
           <div class="col">
