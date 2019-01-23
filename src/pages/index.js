@@ -21,34 +21,7 @@ export const query = graphql`
   }
 `
 
-class infoCard1 extends React.Component {
-  constructor(props){
-    super(props)
-    this.content = {
-      img: null,
-      title: null,
-      body: null,
-    }
-  }
-
-  render() {
-    return (
-      <div class="row">
-        <div class="col">
-        </div>
-
-        <div class="col">
-          <h3> {this.content.title} </h3>
-          <p> {this.content.body} </p>
-        </div>
-      </div>
-    )
-  }
-}
-
-
-class Page extends React.Component {
-  render() {
+export default ({ data }) => {
     return(
       <Layout>
         <h1>Patrick Star on Wumbo </h1>
@@ -112,7 +85,4 @@ class Page extends React.Component {
         </div>
       </Layout>
     )
-  }
 }
-
-export default Page
