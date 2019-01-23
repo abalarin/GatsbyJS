@@ -57,8 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
-.cache
- 
+.cache/
+public
+
 yarn-error.log
 
 scripts/gatsby-deploy
