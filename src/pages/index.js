@@ -11,6 +11,7 @@ export const query = graphql`
     allFile {
       edges {
         node {
+          name
           relativePath
           prettySize
           extension
@@ -22,6 +23,7 @@ export const query = graphql`
 `
 
 export default ({ data }) => {
+  console.log(data)
     return(
       <Layout>
         <h1>Patrick Star on Wumbo </h1>
@@ -55,8 +57,6 @@ export default ({ data }) => {
           </h2>
         </div>
 
-        <infoCard1 title="Test" body="MoreStuff"></infoCard1>
-
         <div class="row">
           <div class="col">
             <h3> Github </h3>
@@ -66,7 +66,7 @@ export default ({ data }) => {
             </p>
           </div>
           <div class="col">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo" />
+            <img src="../." alt="Logo" />
           </div>
         </div>
 
